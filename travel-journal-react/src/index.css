@@ -1,0 +1,124 @@
+/* Body section */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+/* Navbar Section */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25em;
+  background-color: #F55A5A;
+  color: #fff;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.navbar > img {
+  width: 24px;
+}
+
+h1 {
+margin: 0; 
+font-size: 1rem;
+}
+
+/* Card Section */
+
+.card {
+  display: flex;
+  align-items: center;
+  }
+  
+h2, h3, p{
+    margin: 0;
+  }
+
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 0;
+}
+
+.location h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.location a {
+  font-size: 0.75rem;
+  color: #918E9B;
+  text-underline-offset: 4px;
+}
+
+.card-image {
+  border-radius: 8px;
+  width: 125px;
+  height: 168px;
+  margin: 1em;
+  margin-left: 2em;
+}
+
+.card:last-child {
+  margin-bottom: 1.1em;
+}
+
+.pin {
+  width: 7px;
+  height: 11px;
+}
+
+.card-desc > h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-bottom: 1em;
+} 
+
+.card-desc > h3 {
+  font-size: 0.85rem;
+  padding-bottom: 0.45rem;
+}
+
+.card-desc {
+  line-height: 1.2;
+  font-size: 0.75rem;
+  padding-right: 3.5em;
+}
+
+.card-desc > p {
+  text-align: left;
+}
+
+/* Footer Section  */
+
+footer {
+  text-align: center;
+  font-weight: 500;
+  padding: 1.25em;
+  color: #fff;
+  background-color: #F55A5A;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
